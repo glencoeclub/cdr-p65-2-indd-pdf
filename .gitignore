@@ -1,0 +1,20 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# macOS
+.DS_Store
+
+# Build artifacts / local scratch
+.crush/
+.qwen/
+_idml/
+
+# Generated outputs (regenerate from samples/)
+output/
+output_test/
+output_test2/
+idml_test/
+idml_test2/
