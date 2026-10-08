@@ -18,3 +18,9 @@ output_test/
 output_test2/
 idml_test/
 idml_test2/
+
+# Golden baseline: commit manifest + rasterized renders only;
+# the converted PDF/IDML artifacts inside are regenerable
+golden/*
+!golden/manifest.json
+!golden/*.png
